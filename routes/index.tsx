@@ -10,7 +10,7 @@ export default function Home() {
         <title>N1mxnd</title>
       </Head>
       <Main>
-        <Container>
+        <Container tw="overflow-x-hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10 h-screen">
             <div class="grid content-center h-screen">
               <h1 class="text-4xl sm:text-5xl md:text-6xl">
