@@ -1,7 +1,7 @@
 import Head from "core/Head.tsx";
 import Main from "core/Main.tsx";
-import Container from "../components/Container.tsx";
-import { GitHub, HambIcon, LinkedIn } from "../components/icons.tsx";
+import Container from "core/Container.tsx";
+import { GitHub, HambIcon, LinkedIn } from "core/icons.tsx";
 
 export default function Home() {
   return (

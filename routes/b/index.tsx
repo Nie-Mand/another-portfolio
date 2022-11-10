@@ -1,22 +1,21 @@
-import { Head } from "$fresh/runtime.ts";
+import { PageProps } from "$fresh/server.ts";
+import Head from "core/Head.tsx";
+import Main from "core/Main.tsx";
+import Container from "core/Container.tsx";
 
-export default function Home() {
+export default function BlogHome() {
   return (
-    <>
+    <body class="bg-[#111111] overflow-x-hidden">
       <Head>
-        <title>N1mxnd, the Blog</title>
+        <title>N1mxnd</title>
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
-        </p>
-      </div>
-    </>
+      <Main>
+        <Container>
+          <div class="text-white grid place-content-center h-screen ">
+            Under Construction
+          </div>
+        </Container>
+      </Main>
+    </body>
   );
 }
