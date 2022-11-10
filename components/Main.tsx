@@ -5,7 +5,7 @@ import { HambIcon, X } from "./icons.tsx";
 
 export default function Main({ children }: { children: ComponentChildren }) {
   return (
-    <div class="min-h-screen relative w-screen font-syne">
+    <div class="min-h-screen relative w-screen font-syne overflow-x-hidden">
       <X tw="absolute top-0 w-[260vw] -right-[70%]  md:w-full md:right-0 " />
       <nav class="sticky z-20 top-0 w-full py-6 z-20">
         <Container>
@@ -41,7 +41,7 @@ export default function Main({ children }: { children: ComponentChildren }) {
           </div>
         </Container>
       </nav>
-      <div class="absolute top-0 z-10 w-full">{children}</div>
+      <div class="absolute top-0 z-10 w-full overflow-x-hidden">{children}</div>
     </div>
   );
 }
