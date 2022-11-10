@@ -47,11 +47,11 @@ export default function HeadItem({
 
             .layer {
                 animation: 1s show ease-in-out;
-                -webkit-animation: 1s show ease-in-out;
-                   -moz-animation: 1s show ease-in-out;
-                    -ms-animation: 1s show ease-in-out;
-                     -o-animation: 1s show ease-in-out;
-                        animation: 1s show ease-in-out;
+                -webkit-animation: 0.6s show ease-in-out;
+                   -moz-animation: 0.6s show ease-in-out;
+                    -ms-animation: 0.6s show ease-in-out;
+                     -o-animation: 0.6s show ease-in-out;
+                        animation: 0.6s show ease-in-out;
                             animation-fill-mode: both;
             }
 
@@ -64,7 +64,7 @@ export default function HeadItem({
                         animation: 0.3s opacity-in ease-in;
                             animation-fill-mode: both;
 
-                    animation-delay: 1s;
+                    animation-delay: 0.6s;
             }
 
             .layer-content-bye {
@@ -80,11 +80,11 @@ export default function HeadItem({
 
             .layer-bye {
                 animation: 1s bye ease-in-out;
-                -webkit-animation: 1s bye ease-in-out;
-                   -moz-animation: 1s bye ease-in-out;
-                    -ms-animation: 1s bye ease-in-out;
-                     -o-animation: 1s bye ease-in-out;
-                        animation: 1s bye ease-in-out;
+                -webkit-animation: 0.6s bye ease-in-out;
+                   -moz-animation: 0.6s bye ease-in-out;
+                    -ms-animation: 0.6s bye ease-in-out;
+                     -o-animation: 0.6s bye ease-in-out;
+                        animation: 0.6s bye ease-in-out;
                             animation-fill-mode: both;
             }
 
