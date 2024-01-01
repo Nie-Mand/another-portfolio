@@ -6,9 +6,7 @@ import { GitHub, HambIcon, LinkedIn } from "core/icons.tsx";
 export default function Home() {
   return (
     <body class="bg-[#111111] overflow-x-hidden">
-      <Head>
-        <title>N1mxnd</title>
-      </Head>
+      <Head />
       <Main>
         <Container tw="overflow-x-hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10 h-screen">

@@ -1,17 +1,13 @@
 import { Head } from "$fresh/runtime.ts";
 import { type ComponentChildren } from "preact";
 
-export default function HeadItem({
-  children,
-}: {
-  children: ComponentChildren;
-}) {
+export default function HeadItem() {
   console.log();
 
   return (
     <>
       <Head>
-        <title>N1mxnd</title>
+        <title>N1mxnd ~ hmlndr</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -193,7 +189,6 @@ export default function HeadItem({
                 
             `}
         </style>
-        {children}
       </Head>
     </>
   );

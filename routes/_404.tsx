@@ -6,9 +6,7 @@ import Container from "../components/Container.tsx";
 export default function Contact() {
   return (
     <body class="bg-[#111111] overflow-x-hidden">
-      <Head>
-        <title>N1mxnd</title>
-      </Head>
+      <Head />
       <Main>
         <Container>
           <div class="text-white grid place-content-center h-screen ">
